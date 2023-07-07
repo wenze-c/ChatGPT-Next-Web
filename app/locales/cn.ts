@@ -3,8 +3,12 @@ import { SubmitKey } from "../store/config";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+   Unauthorized: `欢迎使用ChatGPT，您看起来还没有填写访问码，为防止本站被爆破和不法分子利用，现已开启访问码使用。
+                 𝐐: 如何获取邀请码？
+                 𝐀: 请加入我们的[QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pbcnlYjzbfC8yvVitfOvcOOvw4TLXdVg&authKey=CdEFwrV1i5zGDWD0bK978l8gYzMbUTfISeIcSn2OT3qia%2BV4OZTbtiocsPNBbILu&noverify=0&group_code=877290341)获取访问码和我们最新的相关消息
+                 𝐐: 如何填写？
+                 𝐀:前往[登录](/#/auth)页输入正确的访问密码
+                 需要注意的是，本站作为公益，完全免费`,
   },
   Auth: {
     Title: "需要密码",
