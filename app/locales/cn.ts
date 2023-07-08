@@ -247,7 +247,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗，请加入我们的[QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pbcnlYjzbfC8yvVitfOvcOOvw4TLXdVg&authKey=CdEFwrV1i5zGDWD0bK978l8gYzMbUTfISeIcSn2OT3qia%2BV4OZTbtiocsPNBbILu&noverify=0&group_code=877290341)获取访问码和最新的相关消息",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
